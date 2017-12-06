@@ -12,6 +12,8 @@ This image is based on `FROM php:5.6-apache`.
 The easiest way to try this image is via docker compose:
 
 ```
+version: '3.1'
+
 services:
   vboxweb:
     image: andrespp/vboxweb
