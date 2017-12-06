@@ -16,7 +16,7 @@ services:
   vboxweb:
     image: andrespp/vboxweb
     volumes:
-      - ./vboxweb/config.php:/var/www/html/config.php:ro
+      - ./config.php-example:/var/www/html/config.php:ro
     ports:
      - "80:80"
 ```
