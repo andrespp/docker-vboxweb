@@ -7,6 +7,8 @@ DockerFile for phpVirtualBox (https://sourceforge.net/projects/phpvirtualbox/)
 
 This image is based on `FROM php:5.6-apache`.
 
+phpVirtualBox version on `latest` tag is `4.3-3`. Check `tags` for more recent version images under development.
+
 # Quick start
 
 The easiest way to try this image is via docker compose:
