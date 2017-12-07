@@ -23,6 +23,8 @@ services:
      - "80:80"
 ```
 
+Make sure `config.php-example` is readable: `chmod 644 config.php-example.php`
+
 # Avilable variables
 
 Todo 
