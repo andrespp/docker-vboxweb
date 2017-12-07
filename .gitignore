@@ -1,3 +1,4 @@
 config.php
+secret*
 docker-compose.*
 data/
