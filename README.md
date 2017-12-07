@@ -5,7 +5,7 @@ Docker phpVirtualBox
 
 DockerFile for phpVirtualBox (https://sourceforge.net/projects/phpvirtualbox/)
 
-This image is based on `FROM php:7.2-apache`.
+This image is based on `FROM php:7.1-apache`.
 
 # Quick start
 
