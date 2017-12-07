@@ -1,7 +1,7 @@
 #Vboxweb Image
 #TODO: Define docker-entrypoint.sh and make it parse USER and PASSWORD via file ou env variables in order to allow use of secrets
 
-FROM php:7.1-apache
+FROM php:5.6-apache
 MAINTAINER andrespp@gmail.com
 
 # Install soap
