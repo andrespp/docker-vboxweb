@@ -7,6 +7,7 @@ MAINTAINER andrespp@gmail.com
 # Install soap
 RUN apt-get update && \
   apt-get install -y --no-install-recommends --no-install-suggests \
+		libxml2 \
 		libxml2-dev php-soap wget unzip && \
   rm -rf /var/lib/apt/lists/* && \
   docker-php-ext-install soap
