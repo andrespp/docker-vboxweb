@@ -18,7 +18,7 @@ version: '3.1'
 
 services:
   vboxweb:
-    image: andrespp/vboxweb
+    image: andrespp/vboxweb:5.05
     volumes:
       - ./config.php-example:/var/www/html/config.php:ro
     ports:
