@@ -6,7 +6,7 @@ MAINTAINER andrespp@gmail.com
 
 # Install soap
 RUN apt-get update && \
-  apt-get install -y --no-install-recommends --no-install-suggests \
+  apt-get install -y \
 		libxml2 \
 		libxml2-dev php-soap wget unzip && \
   rm -rf /var/lib/apt/lists/* && \
